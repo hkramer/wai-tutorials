@@ -84,7 +84,7 @@ Screen readers also allow the use of WAI-ARIA to hide elements by using `role="p
 <%= notes_start %>
 {:/nomarkdown}
 
-**Note:** If the image was used to indicate a thematic break, e.g. a scene change in a story, or a transition to another topic, using the `<hr>` element would be appropriate to notify assistive technology.
+**Note:** If the image was used to indicate a thematic break, e.g. a scene change in a story, or a transition to another topic, using the `<hr>` element would be appropriate to notify assistive technology. (Not sure if this means I should add an '<hr>' in addition to the image and put a null alt for the image  or use an '<hr>' instead of the image).
 
 {::nomarkdown}
 <%= notes_end %>
